@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Restaurant Menu</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <h1>Vinh's Restaurant</h1>
+        <h4>Best Asian restaurant in Town</h4>
+    </header>
+    <main>
+        <div id = "menu">
+            <!-- Menu elements here -->
+        </div>
+        <div id = "order">
+            <!--  elements here -->
+        </div>
+        <div class = "payment-modal" id = "payment-modal">
+            <div class="close-modal-btn-container">
+        <button class="modal-close-btn" id="modal-close-btn">X</button>
+      </div>
+            <div>
+                <h2>Payment</h2>
+                <form id ="payment-form">
+                    <input 
+                        type="text" 
+                        id="clientName" 
+                        name="clientName"
+                        aria-label="Client Name" 
+                        placeholder="Enter your Name"
+                        required
+                    >
+                    <input 
+                        type="text" 
+                        id="clientCard" 
+                        name="clientCard"
+                        aria-label="Client Number of Card" 
+                        placeholder="Enter your Card Number"
+                        required
+                    >
+                    <input 
+                        type="text" 
+                        id="clientCvv" 
+                        name="clientCvv"
+                        aria-label="Client Card CVV" 
+                        placeholder="Enter CVV"
+                        required
+                    >
+                    <button type="submit" id="pay-order">Pay</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="/index.js" type ="module"></script>
+  </body>
+</html>
