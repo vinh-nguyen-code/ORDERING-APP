@@ -30,7 +30,7 @@ I have continued with these stretch goals:
 
 ### Links
 
-- Live Site: [DEMO](https://vinh-nguyen-code.github.io/ORDERING-APP/)
+- Live Site: [DEMO](https://restaurant-vinh.netlify.app/)
 
 ## Process
 
